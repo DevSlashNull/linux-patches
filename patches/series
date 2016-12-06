@@ -1,0 +1,15 @@
+# This file is part of linux-patches. It is subject to the licence terms in the COPYRIGHT file found in the top-level directory of this distribution and at https://raw.githubusercontent.com/libertine-linux/linux-patches/master/COPYRIGHT. No part of linux-patches, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the COPYRIGHT file.
+# Copyright © 2016 The developers of linux-patches. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/libertine-linux/linux-patches/master/COPYRIGHT.
+
+
+grsecurity/dev.aplinelinux.org/~ncopa/grsec/grsecurity-3.1-4.4.36-201604252206-alpine.patch
+alpine-linux/fix-spi-nor-namespace-clash.patch
+alpine-linux/imx6q-no-unclocked-sleep.patch
+alpine-linux/gcc6.patch
+alpine-linux/gcc-default-pie.patch
+musl/vdso2c.c.patch
+musl/libc-compat.h.patch
+musl/if_ether.h.patch
+musl/kernel.h.patch
+kernel_gcc_patch/enable_additional_cpu_optimizations_for_gcc_v4.9+_kernel_v3.15+.patch
+ck1/patch-ck1.patch

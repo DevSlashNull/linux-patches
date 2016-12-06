@@ -1,0 +1,10 @@
+--- old/arch/x86/entry/vdso/vdso2c.c
++++ new/arch/x86/entry/vdso/vdso2c.c
+@@ -48,6 +48,7 @@
+  * that.
+  */
+ 
++#include <stdbool.h>
+ #include <inttypes.h>
+ #include <stdint.h>
+ #include <unistd.h>
