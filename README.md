@@ -11,20 +11,21 @@
 As of 2nd December 2016, these patches are for applying to the Linux 4.4 longterm stable releases.
 
 
-## Origin of patches
+## Patches
 
-* `bfs`: Brain Fuck Scheduler (BFS) and other Con Kolivas patches
+* `ck1`: Contains the Brain Fuck Scheduler (BFS) and other Con Kolivas patches
 	* Downloaded from <http://ck.kolivas.org/patches/4.0/4.4/4.4-ck1/patch-4.4-ck1.xz>
 	* `mkdir -m 0755 -p patches/ck1; wget -q -O - http://ck.kolivas.org/patches/4.0/4.4/4.4-ck1/patch-4.4-ck1.xz | unxz >patches/ck1/patch-4.4-ck1.patch`
-* grsecurity (and PaX) patches
+* `grsecurity`: Contains grsecurity patches
 	 * Are only publically available for the latest stable kernel release. They are not necessarily available publically without subscription for the latest longterm kernel release
 	 * Alpine Linux maintains backports via their [aports package manager](git://git.alpinelinux.org/aports) in location `aports/main/linux-grsec/APKBUILD`
 		 * Alpine Linux patches may be available via URLs such as `http://dev.alpinelinux.org/~ncopa/grsec/grsecurity-3.1-4.4.36-201604252206-alpine.patch`
 		 * Sadly this URL is not secure
-
+* `bfq`: Budget Fair Queuing (BFQ) disk scheduler patches
+	* Downloaded from <http://algo.ing.unimo.it/people/paolo/disk_sched/patches>
 
 ## Licensing
 
-The license for this project is MIT. Individual patches may be licensed differently. The patches in `busybox/` and `other/` are part of this project.
+The license for this project is MIT. Individual patches may be licensed differently. The patches in `musl/` are part of this project.
 
 [linux-patches]: https://github.com/libertine-linux/linux-patches "linux-patches GitHub page"
