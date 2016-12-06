@@ -14,6 +14,7 @@ As of 2nd December 2016, these patches are for applying to the Linux 4.4 longter
 ## Patches
 
 * `ck1`: Contains the Brain Fuck Scheduler (BFS) and other Con Kolivas patches
+	* NOT COMPATIBLE with current grsecurity and so NOT USED
 	* Downloaded from <http://ck.kolivas.org/patches/4.0/4.4/4.4-ck1/patch-4.4-ck1.xz>
 	* `mkdir -m 0755 -p patches/ck1; wget -q -O - http://ck.kolivas.org/patches/4.0/4.4/4.4-ck1/patch-4.4-ck1.xz | unxz >patches/ck1/patch-4.4-ck1.patch`
 * `grsecurity`: Contains grsecurity patches
